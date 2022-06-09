@@ -40,10 +40,10 @@ const Banner = () => {
                             <p className="text-[12px] leading-[18px] font-normal">
                                 Wine
                             </p>
-                            <h1 className="text-xl  mt-[8px] mb-[4px] leading-[24px] font-medium">
+                            <h1 className="text-[16px]  mt-[8px] mb-[4px] leading-[24px] font-medium">
                                 Drunkenness
                             </h1>
-                            <h1 className="text-xl leading-[24px] font-medium">
+                            <h1 className="text-[16px] leading-[24px] font-medium">
                                 Deep Flavor
                             </h1>
                         </div>
@@ -51,10 +51,10 @@ const Banner = () => {
                             <p className="text-[12px] leading-[18px] font-normal">
                                 Cosmetic
                             </p>
-                            <h1 className="text-xl  mt-[8px] mb-[4px] leading-[24px] font-medium">
+                            <h1 className="text-[16px]  mt-[8px] mb-[4px] leading-[24px] font-medium">
                                 MAXIMI
                             </h1>
-                            <h1 className="text-xl leading-[24px] font-medium">
+                            <h1 className="text-[16px] leading-[24px] font-medium">
                                 Sale 50%
                             </h1>
                         </div>
@@ -62,18 +62,67 @@ const Banner = () => {
                             <p className="text-[12px] leading-[18px] font-normal">
                                 Sunglasses
                             </p>
-                            <h1 className="text-xl mt-[8px] mb-[4px] leading-[24px] font-medium">
+                            <h1 className="text-[16px] mt-[8px] mb-[4px] leading-[24px] font-medium">
                                 Authentic
                             </h1>
-                            <h1 className="text-xl leading-[24px] font-medium">
+                            <h1 className="text-[16px] leading-[24px] font-medium">
                                 Sale off 50%
                             </h1>
                         </div>
                     </div>
                 </div>
                 {/* banner left 3rd conatiner  */}
-                <div className="bg-pink-600 w-[368px] h-[100%]">
-                    <h1>Yay I am third</h1>
+                <div className=" w-[368px] h-[100%]">
+                    {/* first part  */}
+                    <div className="h-[172px] w-[368px] bg-[#F5F5F5] rounded-lg py-[47px] pl-[24px]">
+                        <p className="text-[12px] leading-[18px] font-normal">
+                            Big deal
+                        </p>
+                        <h1 className="text-[16px] mt-[8px] mb-[4px] leading-[24px] font-medium">
+                            Black Friday
+                        </h1>
+                        <h1 className="text-[16px] leading-[24px] font-medium">
+                            Buy 1 Get 1
+                        </h1>
+                    </div>
+                    {/* second part  */}
+                    <div className="h-[172px] w-[368px] mt-[24px] bg-[#F5F5F5] rounded-lg py-[47px] pl-[24px]">
+                        <p className="text-[12px] leading-[18px] font-normal">
+                            Fujiwa
+                        </p>
+                        <h1 className="text-[16px] mt-[8px] mb-[4px] leading-[24px] font-medium">
+                            ION Alkaline
+                        </h1>
+                        <h1 className="text-[16px] leading-[24px] font-medium">
+                            Micronutrient <br />
+                            Supplements
+                        </h1>
+                    </div>
+                    {/* 3rd part  */}
+                    <div className="grid mt-[24px] w-[368px] grid-cols-2 gap-[24px]">
+                        <div className="h-[172px] bg-[#F5F5F5] rounded-lg py-[47px] pl-[24px]">
+                            <p className="text-[12px] leading-[18px] font-normal">
+                                Hand Wash
+                            </p>
+                            <h1 className="text-[16px]  mt-[8px] mb-[4px] leading-[24px] font-medium">
+                                Clean hands
+                            </h1>
+                            <h1 className="text-[16px] leading-[24px] font-medium">
+                                Clean bacteria
+                            </h1>
+                        </div>
+                        <div className="h-[172px] bg-[#F5F5F5] rounded-lg py-[47px] pl-[24px]">
+                            <p className="text-[12px] leading-[18px] font-normal">
+                                Fashion
+                            </p>
+                            <h1 className="text-[16px] mt-[8px] mb-[4px] leading-[24px] font-medium">
+                                Nice bag
+                            </h1>
+                            <h1 className="text-[16px] leading-[24px] font-medium">
+                                Nice style
+                            </h1>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
