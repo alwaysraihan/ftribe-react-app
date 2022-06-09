@@ -21,6 +21,7 @@ const Banner = () => {
                 </div>
                 {/* banner left 2nd conatiner  */}
                 <div className="  w-full h-[100%] ">
+                    {/* 1st container  */}
                     <div className="pt-[107px] pl-[48px] pb-[48px] bg-[#F5F5F5] rounded-lg">
                         <p className="text-sm font-semibold">New Product</p>
                         <h1 className="text-[34px]  leading-[42px] my-[16px]">
@@ -31,6 +32,42 @@ const Banner = () => {
                             <span class="btn text-center  rounded-lg btn-primary text-white text-[14px] px-[16px] py-[8px]">
                                 Buy Now
                             </span>
+                        </div>
+                    </div>
+                    {/* 2nd container  */}
+                    <div className="grid mt-[24px] grid-cols-3 gap-[24px]">
+                        <div className="h-[172px] bg-[#F5F5F5] rounded-lg py-[47px] pl-[24px]">
+                            <p className="text-[12px] leading-[18px] font-normal">
+                                Wine
+                            </p>
+                            <h1 className="text-xl  mt-[8px] mb-[4px] leading-[24px] font-medium">
+                                Drunkenness
+                            </h1>
+                            <h1 className="text-xl leading-[24px] font-medium">
+                                Deep Flavor
+                            </h1>
+                        </div>
+                        <div className="h-[172px] bg-[#F5F5F5] rounded-lg py-[47px] pl-[24px]">
+                            <p className="text-[12px] leading-[18px] font-normal">
+                                Cosmetic
+                            </p>
+                            <h1 className="text-xl  mt-[8px] mb-[4px] leading-[24px] font-medium">
+                                MAXIMI
+                            </h1>
+                            <h1 className="text-xl leading-[24px] font-medium">
+                                Sale 50%
+                            </h1>
+                        </div>
+                        <div className="h-[172px] bg-[#F5F5F5] rounded-lg py-[47px] pl-[24px]">
+                            <p className="text-[12px] leading-[18px] font-normal">
+                                Sunglasses
+                            </p>
+                            <h1 className="text-xl mt-[8px] mb-[4px] leading-[24px] font-medium">
+                                Authentic
+                            </h1>
+                            <h1 className="text-xl leading-[24px] font-medium">
+                                Sale off 50%
+                            </h1>
                         </div>
                     </div>
                 </div>
