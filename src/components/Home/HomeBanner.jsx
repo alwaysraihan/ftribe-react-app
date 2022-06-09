@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
     return (
         <>
-            <div className="px-[80px] flex h-[564px] justify-between gap-10">
+            <div className="px-[80px] flex h-[564px] justify-between gap-10 mt-[80px]">
                 {/* banner left 1st conatiner  */}
                 <div className="bg-[#F5F5F5] rounded-lg relative w-[270px] h-full text-center py-[48px]">
                     <div className="mb-auto">

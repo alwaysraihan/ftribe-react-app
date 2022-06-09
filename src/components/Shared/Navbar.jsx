@@ -11,7 +11,7 @@ import { BsCart3 } from "react-icons/bs";
 
 const Navbar = () => {
     return (
-        <div className="px-[13%]  bg-black">
+        <div className="px-[12%]  bg-black">
             {/* Top Bar */}
             <div className="w-full h-[56px]  grid md:grid-cols-3 items-center    text-white">
                 {/* Icons */}
@@ -44,7 +44,7 @@ const Navbar = () => {
             {/* main navbar */}
             <div className="h-[112px] w-full  justify-between  bg-black flex items-center">
                 <div className="w-1/5">
-                    <img src="https://i.ibb.co/0GrPScv/logo.png" alt="" />
+                    <img src="https://i.ibb.co/0GrPScv/logo.png" alt="logo" />
                 </div>
                 <div className="w-4/5">
                     <div className="w-full flex justify-end items-center">
