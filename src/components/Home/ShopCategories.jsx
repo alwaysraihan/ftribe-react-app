@@ -8,6 +8,7 @@ import {
     TechnologyImg,
     WatchImg,
 } from "../../assets/icons";
+import CategoriesProducts from "./CategoriesProducts";
 
 const ShopCategories = () => {
     return (
@@ -102,6 +103,7 @@ const ShopCategories = () => {
                         </div>
                     </div>
                 </div>
+                <CategoriesProducts />
             </div>
         </>
     );
