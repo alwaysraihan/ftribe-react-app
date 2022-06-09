@@ -41,6 +41,12 @@ const CategoriesProducts = () => {
                             <h1 className="text-[18px] mt-[4px] font-[600] leading-[28px] ">
                                 ${product.price}
                             </h1>
+                            <h1 className="text-[12px] leading-[18px] text-[#E5E5E5]">
+                                by{" "}
+                                <span className="font-semibold text-blue-600">
+                                    by Co., Ltd Minie Li
+                                </span>
+                            </h1>
                         </div>
                     </div>
                 ))}
