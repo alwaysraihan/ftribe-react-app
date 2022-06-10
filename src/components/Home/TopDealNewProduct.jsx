@@ -1,8 +1,6 @@
-import React from "react";
-
 const TopDealNewProduct = () => {
     return (
-        <div className="grid grid-cols-2 px-[12%] my-[80px] gap-[24px] w-full">
+        <div className="grid grid-cols-2 lg:px-[5%] xl:px-[8%] 2xl:px-p[12%] my-[80px] gap-[24px] w-full ">
             <div className="w-full bg-[#F5F5F5] rounded-lg pt-[109px] pl-[48px] h-[317px]">
                 <p className="text-[12px] last-[24px] text-[#555555]  font-semibold">
                     Hot Deal

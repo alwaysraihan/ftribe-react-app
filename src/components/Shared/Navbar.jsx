@@ -11,7 +11,7 @@ import { BsCart3 } from "react-icons/bs";
 
 const Navbar = () => {
     return (
-        <div className="px-[12%]  bg-black">
+        <div className="lg:px-[5%] xl:px-[8%] 2xl:px-p[12%]  bg-black">
             {/* Top Bar */}
             <div className="w-full h-[56px]  grid md:grid-cols-3 items-center    text-white">
                 {/* Icons */}

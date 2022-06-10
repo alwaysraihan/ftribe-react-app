@@ -13,7 +13,7 @@ import CategoriesProducts from "./CategoriesProducts";
 const ShopCategories = () => {
     return (
         <>
-            <div className="px-[12%]  mt-[82px] ">
+            <div className="lg:px-[5%] xl:px-[8%] 2xl:px-p[12%]  mt-[82px] ">
                 <h1 className=" text-[20px] mb-[34px] left-[28px] font-semibold">
                     Shop By Categories
                 </h1>
